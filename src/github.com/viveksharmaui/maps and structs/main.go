@@ -21,7 +21,7 @@ func main() {
 	fmt.Println(a, ok)
 	fmt.Println(len(a))
 
-	//Structs
+	//Structs -> Pass By Value
 	aDoctor := Doctor{
 		firstName:  "Vivek",
 		middleName: "Anand",
